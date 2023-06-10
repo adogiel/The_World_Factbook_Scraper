@@ -21,3 +21,12 @@ Instruction for Soup
 3. Run the scraper and wait for the scraping process to complete.
 4. Check the console output: Once the scraper finishes running, it will display the extracted data for each continent in tabular form on the console.
 5. Locate the CSV files: The scraper saves the extracted data for each continent in separate CSV files. The files will be saved in the same directory where the Python script is located. Look for files with names based on the continent.
+
+
+Instruction for Selenium
+
+1. Download the Selenium folder
+2. In Visual Studio Code open the file "scraper.py" from Selenium folder.
+3. Run the scraper and wait for the scraping process to complete.
+4. Check the console output: Once the scraper finishes running, it will display the calculated running time and some basic statistics for scrapped information on the console.
+5. Locate the CSV files: The scraper saves the extracted data for each continent in separate CSV files. The files will be saved in the same directory where the Python script is located. Look for files with names based on the continent.

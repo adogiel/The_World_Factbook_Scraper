@@ -4,7 +4,8 @@ from bs4 import BeautifulSoup
 import re
 import os
 import time
- 
+
+start_time = time.time()
 
 def scrape_country_info(country_link):
     response = requests.get(country_link)
@@ -237,9 +238,6 @@ def print_country_info(url,limit=50):
 
 print_country_info('https://www.cia.gov/the-world-factbook/africa/')
 print_country_info('https://www.cia.gov/the-world-factbook/europe/')
-
-
-start_time = time.time()
 
 # Existing code for scraping and processing data
 

@@ -6,7 +6,6 @@ Instruction for Scrapy
 1. Download the Scrapy folder
 2. In Visual Studio Code open the folder with spider factbook_scraper
 3. In terminal write:
-   cd factbook_scraper + enter
    cd spiders + enter
 4. To run the code write command in the terminal:
    scrapy runspider factbook_spider.py -o countries.csv + enter

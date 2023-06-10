@@ -12,3 +12,12 @@ Instruction for Scrapy
    To save it in file with other name than countries we can simply replace it with desired name
 5. To limit the number of countries scraped you can change limit = False to limit = True
 6. CSV is saved in the spider folder but you can also download it with clicking on csv and then File -> Save As
+
+
+Instruction for Soup
+
+1. Download the Soup folder
+2. In Visual Studio Code open the file "soup.py" from Soup folder.
+3. Run the scraper and wait for the scraping process to complete.
+4. Check the console output: Once the scraper finishes running, it will display the extracted data for each continent in tabular form on the console.
+5. Locate the CSV files: The scraper saves the extracted data for each continent in separate CSV files. The files will be saved in the same directory where the Python script is located. Look for files with names based on the continent.
